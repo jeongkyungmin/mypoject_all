@@ -11,14 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b368b11b-493a-4487-8617-df6400dbd4f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject_all_data.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/number.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/output.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output_merge.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/output_merge.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/마이 프로젝트 기획안_20200815.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_table.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/output_table.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +226,7 @@
       <workItem from="1597843134317" duration="820000" />
       <workItem from="1597844107116" duration="9627000" />
       <workItem from="1597880588543" duration="245000" />
-      <workItem from="1597891086316" duration="15435000" />
+      <workItem from="1597891086316" duration="19663000" />
     </task>
     <servers />
   </component>
@@ -275,30 +271,30 @@
     </state>
     <state x="746" y="419" key="Github.CreateGistDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597909139592" />
     <state x="746" y="419" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597843336113" />
-    <state width="932" height="361" key="GridCell.Tab.0.bottom" timestamp="1597918431056">
+    <state width="1865" height="361" key="GridCell.Tab.0.bottom" timestamp="1597929760689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="267" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597809224120" />
     <state width="932" height="361" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597916249200" />
-    <state width="932" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597918431056" />
-    <state width="932" height="361" key="GridCell.Tab.0.center" timestamp="1597918431056">
+    <state width="1865" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597929760689" />
+    <state width="1865" height="361" key="GridCell.Tab.0.center" timestamp="1597929760689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="267" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597809224120" />
     <state width="932" height="361" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597916249200" />
-    <state width="932" height="361" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597918431056" />
-    <state width="932" height="361" key="GridCell.Tab.0.left" timestamp="1597918431040">
+    <state width="1865" height="361" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597929760689" />
+    <state width="1865" height="361" key="GridCell.Tab.0.left" timestamp="1597929760689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="267" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597809224120" />
     <state width="932" height="361" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597916249200" />
-    <state width="932" height="361" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597918431040" />
-    <state width="932" height="361" key="GridCell.Tab.0.right" timestamp="1597918431056">
+    <state width="1865" height="361" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597929760689" />
+    <state width="1865" height="361" key="GridCell.Tab.0.right" timestamp="1597929760689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="267" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597809224120" />
     <state width="932" height="361" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597916249200" />
-    <state width="932" height="361" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597918431056" />
+    <state width="1865" height="361" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597929760689" />
     <state width="1865" height="331" key="GridCell.Tab.1.bottom" timestamp="1597829952851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -333,6 +329,6 @@
     <SUITE FILE_PATH="coverage/mypoject_all$ex_pandas.coverage" NAME="ex_pandas Coverage Results" MODIFIED="1597844147004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mypoject_all$excel.coverage" NAME="excel Coverage Results" MODIFIED="1597796419653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mypoject_all$final.coverage" NAME="final Coverage Results" MODIFIED="1597842320678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mypoject_all$myproject_data__1_.coverage" NAME="myproject_data (1) Coverage Results" MODIFIED="1597918431040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mypoject_all$myproject_data__1_.coverage" NAME="myproject_data (1) Coverage Results" MODIFIED="1597929760677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
