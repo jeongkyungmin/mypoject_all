@@ -28,11 +28,36 @@ friut['검사 시간'] = friut['검사 시간'].apply(lambda x: x.strftime('%m%d
 
 friut.to_excel("output_merge.xlsx", index=True, encoding='utf-8')
 
+
+print(friut['모델'])
+
+
+
+#index() 추가 연습
+
+friut=friut.reset_index()
+
+print(friut)
+
+#index() 추가 연습
+
+
+#OLED 모델 축출 연습
+fruit_OLED = fruit.loc[fruit.모델.str.contains("OLED")]
+
+
+print(fruit_OLED)
+#OLED 모델 축출 연습
+
 friut_table=pd.pivot_table(friut, index=['모델','Stand P/N','Stand (Type)'], columns='검사 시간', values='Value',aggfunc='first')
 
 print(friut_table)
 
 friut_table.to_excel("output_table.xlsx", index=True, encoding='utf-8')
+
+
+
+
 
 
 
