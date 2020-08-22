@@ -10,6 +10,9 @@ fruit=fruit[condition_A]
 
 fruit = fruit[['검사 시간','모델', 'Suffix','라인','W/O','Spec.','Value']]
 
+fruit = fruit.loc[fruit.Spec..contains("전 : 0˚↓, 후 : 1.8˚ ↑(MA)")]
+
+
 fruit=fruit.dropna()
 
 print(fruit)
@@ -38,12 +41,14 @@ print(friut)
 
 #index() 추가 연습
 
-
 #OLED 모델 축출 연습
 fruit_OLED = fruit.loc[fruit.모델.str.contains("OLED")]
 
 
-print(fruit_OLED)
+# print(fruit_OLED)
+
+# print(fruit.loc[])
+
 #
 # fruit_UHD=fruit.drop[fruit_OLED]
 #
@@ -53,6 +58,16 @@ print(fruit_OLED)
 
 #ok/ng 판정하기
 #
+# print(fruit['Value'], type(fruit['Value']))
+print(fruit['Value'].count())
+print(type(fruit['Value'].values[0]))
+
+for row in range(fruit['Value'].count()):
+    if float(fruit['Value'].values[row]) > 0.4 and float(fruit['Value'].values[row]) < 1.4:
+        print("OK " + fruit['Value'].values[row])
+    else:
+        print("NG " + fruit['Value'].values[row])
+
 # grades = []
 #
 # for row in fruit['Value']:
@@ -69,24 +84,24 @@ print(fruit_OLED)
 #ok/ng 판정하기
 #
 # Group by 해보기
-
-fruit_모델 = fruit.groupby('모델')
-
-print(fruit_모델.groups)
-
-# for Stand P/N, group in fruit_모델:
-#     print(Stand P/N) + ": " + str(len(group)))
-#     print(group)
-#     print()
-
-# Group by 해보기
-
-
-friut_table=pd.pivot_table(friut, index=['모델','Stand P/N','Stand (Type)'], columns='검사 시간', values='Value',aggfunc='first')
-
-print(friut_table)
-
-friut_table.to_excel("output_table.xlsx", index=True, encoding='utf-8')
+#
+# fruit_모델 = fruit.groupby('모델')
+#
+# print(fruit_모델.groups)
+#
+# # for Stand P/N, group in fruit_모델:
+# #     print(Stand P/N) + ": " + str(len(group)))
+# #     print(group)
+# #     print()
+#
+# # Group by 해보기
+#
+#
+# friut_table=pd.pivot_table(friut, index=['모델','Stand P/N','Stand (Type)'], columns='검사 시간', values='Value',aggfunc='first')
+#
+# # print(friut_table)
+#
+# friut_table.to_excel("output_table.xlsx", index=True, encoding='utf-8')
 
 
 
