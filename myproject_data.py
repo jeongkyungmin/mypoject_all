@@ -4,110 +4,94 @@ import re
 
 
 fruit = pd.read_excel('fruit.xlsx',sheet_name='sheet1')
+# fruit=fruit.rename (index = { 'Spec.': 'Spec'}, inplace = True)
 
 condition_A=(fruit['Spec.']=='전 : 0˚↓, 후 : 1.8˚ ↑(MA)')
 fruit=fruit[condition_A]
 
 fruit = fruit[['검사 시간','모델', 'Suffix','라인','W/O','Spec.','Value']]
 
-fruit = fruit.loc[fruit.Spec..contains("전 : 0˚↓, 후 : 1.8˚ ↑(MA)")]
-
+fruit = fruit.rename({'Spec.':'Spec'},axis='columns')
 
 fruit=fruit.dropna()
 
-print(fruit)
+print("필요한 컬럼 추출과과 빈셀 삭제!!" + fruit)
 
 apple = pd.read_excel('apple.xlsx',sheet_name='sheet1')
 
 apple = apple[['모델','Suffix','Stand P/N','Stand (Type)']]
+apple = apple.rename({'Stand P/N':'Stand No','Stand (Type)':'Stand'},axis='columns')
 
-print(apple)
 
-friut = pd.merge(fruit, apple, how='left', on=['모델','Suffix'])
+print("apple 종류는 이런것들이 있어요!"+ apple)
 
-friut['검사 시간'] = pd.to_datetime(friut['검사 시간'])
-friut['년월'] = friut['검사 시간'].apply(lambda x: x.strftime('%Y%m'))
-friut['검사 시간'] = friut['검사 시간'].apply(lambda x: x.strftime('%m%d'))
+fruit = pd.merge(fruit, apple, how='left', on=['모델','Suffix'])
 
-friut=friut.dropna(axis=0)
+print("fruit과 apple을 merge했어요!..그래야 fruit와 apple을 이용해서 Value값의 구분자로 쓸수 있어요!!" + fruit)
 
-friut.to_excel("output_merge.xlsx", index=True, encoding='utf-8')
+##지금은 날리지만 나중에는 신발을 찾아서 다시 apple.xlsx에 수동으로 넣어서 관리해야 합니다!!
+fruit=fruit.dropna()
 
-#index() 추가 연습
+fruit=fruit.reset_index()
 
-friut=friut.reset_index()
+fruit['검사 시간'] = pd.to_datetime(fruit['검사 시간'])
+fruit['년월'] = fruit['검사 시간'].apply(lambda x: x.strftime('%Y%m'))
+fruit['검사 시간'] = fruit['검사 시간'].apply(lambda x: x.strftime('%m%d'))
 
-print(friut)
+fruit.to_excel("output_merge.xlsx", index=True, encoding='utf-8')
 
-#index() 추가 연습
+print(fruit)
 
-#OLED 모델 축출 연습
+##OLED/UHD 모델 추출 연습
 fruit_OLED = fruit.loc[fruit.모델.str.contains("OLED")]
 
+print(fruit_OLED)
 
-# print(fruit_OLED)
+# fruit_UHD = fruit.drop[fruit.모델.str.contains("OLED")]
 
-# print(fruit.loc[])
-
-#
-# fruit_UHD=fruit.drop[fruit_OLED]
-#
 # print(fruit_UHD)
 
-#OLED 모델 축출 연습
-
-#ok/ng 판정하기
+##OLED/UHD 모델 추출 연습
 #
-# print(fruit['Value'], type(fruit['Value']))
-print(fruit['Value'].count())
-print(type(fruit['Value'].values[0]))
-
-for row in range(fruit['Value'].count()):
-    if float(fruit['Value'].values[row]) > 0.4 and float(fruit['Value'].values[row]) < 1.4:
-        print("OK " + fruit['Value'].values[row])
-    else:
-        print("NG " + fruit['Value'].values[row])
-
-# grades = []
+## ok/ng 판정하기
 #
-# for row in fruit['Value']:
-#     if float(row) < 1.4:
-#         grades.append('ok')
+# print(fruit['Value'].count())
+# print(type(float(fruit['Value'].values[0])))
 #
+# fruit['result']=0
+#
+# print(fruit['result'][0])
+#
+#
+# for row in range(fruit['Value'].count()):
+#     if float(fruit['Value'].values[row]) > 0.4 and float(fruit['Value'].values[row]) < 1.4:
+#         fruit['result'][row].append('OK')
 #     else:
-#         grades.append('ng')
-#
-# fruit['result'] = grades
-#
-# print(fruit)
-
-#ok/ng 판정하기
-#
-# Group by 해보기
-#
-# fruit_모델 = fruit.groupby('모델')
-#
-# print(fruit_모델.groups)
-#
-# # for Stand P/N, group in fruit_모델:
-# #     print(Stand P/N) + ": " + str(len(group)))
-# #     print(group)
-# #     print()
-#
-# # Group by 해보기
-#
-#
-# friut_table=pd.pivot_table(friut, index=['모델','Stand P/N','Stand (Type)'], columns='검사 시간', values='Value',aggfunc='first')
-#
-# # print(friut_table)
-#
-# friut_table.to_excel("output_table.xlsx", index=True, encoding='utf-8')
+#         fruit['result'][row].append('NG')
 
 
 
 
+# fruit.to_excel("result.xlsx", index=True, encoding='utf-8')
+#
+# # #ok/ng 판정하기
+#
+fruit_table=pd.pivot_table(fruit, index=['모델','Stand','Stand No'], columns='index', values='Value',aggfunc='first')
 
+fruit_table.to_excel("output_table.xlsx", index=True, encoding='utf-8')
+print(fruit_table)
 
+## Group by 해보기 :이건 참고 자료 입니다!!
+# fruit_table.groupby('모델')
+print(fruit_table.groupby('모델').get_group('OLED77CXPVA'))
+print(fruit_table.groupby('모델').size())
+fruit_table_모델_cnt = pd.DataFrame({'count' : fruit_table.groupby('모델').size()}).reset_index()
+print(fruit_table_모델_cnt)
+#
+# fruit_table.groupby('Stand')
+fruit_table_Stand_cnt = pd.DataFrame({'count' : fruit_table.groupby('Stand').size()}).reset_index()
+print(fruit_table_Stand_cnt)
+## Group by 해보기 :이건 참고 자료 입니다!!
 
 
 

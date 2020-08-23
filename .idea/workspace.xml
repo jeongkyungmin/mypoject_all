@@ -11,13 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b368b11b-493a-4487-8617-df6400dbd4f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/reference/ex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API 설계.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/API 설계.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SupermarketSales.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex_merge.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex_pandas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fruit.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/fruit.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output_merge.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/output_merge.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output_table.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/output_table.xlsx" afterDir="false" />
     </list>
@@ -99,28 +97,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="mypoject_all" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week07/alonememo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week07/alonememo/app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="email (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="mypoject_all" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="email" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="mypoject_all" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,12 +127,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mypoject_all" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/reference" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mypoject_all/email.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reference/ex.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mypoject_all" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,10 +188,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.myproject_data (1)" />
+        <item itemvalue="Python.ex (1)" />
+        <item itemvalue="Python.ex" />
         <item itemvalue="Python.email (1)" />
         <item itemvalue="Python.app (1)" />
-        <item itemvalue="Python.app" />
-        <item itemvalue="Python.email" />
       </list>
     </recent_temporary>
   </component>
@@ -220,6 +218,9 @@
       <workItem from="1598010559711" duration="26564000" />
       <workItem from="1598082598436" duration="290000" />
       <workItem from="1598083117628" duration="6797000" />
+      <workItem from="1598090861767" duration="219000" />
+      <workItem from="1598134898529" duration="10583000" />
+      <workItem from="1598155753463" duration="15990000" />
     </task>
     <servers />
   </component>
@@ -256,40 +257,40 @@
     </state>
     <state x="-1279" y="302" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597808729347" />
     <state x="641" y="302" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1598083605984" />
-    <state x="687" y="215" key="FileChooserDialogImpl" timestamp="1598082886609">
+    <state x="687" y="215" key="FileChooserDialogImpl" timestamp="1598155522022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1233" y="215" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597795232016" />
-    <state x="687" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598082886609" />
+    <state x="687" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598155522022" />
     <state x="746" y="419" key="Github.CreateGistDialog" timestamp="1597909139592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="746" y="419" key="Github.CreateGistDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597909139592" />
     <state x="746" y="419" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597843336113" />
-    <state width="1199" height="317" key="GridCell.Tab.0.bottom" timestamp="1598090825215">
+    <state width="1145" height="346" key="GridCell.Tab.0.bottom" timestamp="1598171633163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="267" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597809224120" />
     <state width="1865" height="361" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597997457266" />
-    <state width="1199" height="317" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598090825215" />
-    <state width="1199" height="317" key="GridCell.Tab.0.center" timestamp="1598090825214">
+    <state width="1145" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598171633163" />
+    <state width="1145" height="346" key="GridCell.Tab.0.center" timestamp="1598171633163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="267" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597809224120" />
     <state width="1865" height="361" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597997457266" />
-    <state width="1199" height="317" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598090825214" />
-    <state width="1199" height="317" key="GridCell.Tab.0.left" timestamp="1598090825214">
+    <state width="1145" height="346" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598171633163" />
+    <state width="1145" height="346" key="GridCell.Tab.0.left" timestamp="1598171633163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="267" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597809224120" />
     <state width="1865" height="361" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597997457266" />
-    <state width="1199" height="317" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598090825214" />
-    <state width="1199" height="317" key="GridCell.Tab.0.right" timestamp="1598090825214">
+    <state width="1145" height="346" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598171633163" />
+    <state width="1145" height="346" key="GridCell.Tab.0.right" timestamp="1598171633163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="267" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597809224120" />
     <state width="1865" height="361" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597997457266" />
-    <state width="1199" height="317" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598090825214" />
+    <state width="1145" height="346" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598171633163" />
     <state width="1865" height="331" key="GridCell.Tab.1.bottom" timestamp="1597829952851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -310,23 +311,24 @@
     </state>
     <state width="1865" height="331" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597815281132" />
     <state width="1865" height="331" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597829952851" />
-    <state x="596" y="157" key="SettingsEditor" timestamp="1598085077159">
+    <state x="596" y="157" key="SettingsEditor" timestamp="1598169024843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1276" y="88" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597796036026" />
     <state x="398" y="23" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597996919404" />
-    <state x="596" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598085077159" />
+    <state x="596" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598169024843" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mypoject_all$ex__1_.coverage" NAME="ex (1) Coverage Results" MODIFIED="1598156845390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reference" />
     <SUITE FILE_PATH="coverage/mypoject_all$app.coverage" NAME="app Coverage Results" MODIFIED="1598081931245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week07/alonememo" />
-    <SUITE FILE_PATH="coverage/mypoject_all$ex.coverage" NAME="ex Coverage Results" MODIFIED="1597796474279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mypoject_all$ex_merge.coverage" NAME="ex_merge Coverage Results" MODIFIED="1597855448899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mypoject_all$ex.coverage" NAME="ex Coverage Results" MODIFIED="1598153600374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mypoject_all$excel__1_.coverage" NAME="excel (1) Coverage Results" MODIFIED="1597829931283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mypoject_all$ex_pandas.coverage" NAME="ex_pandas Coverage Results" MODIFIED="1597844147004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mypoject_all$excel.coverage" NAME="excel Coverage Results" MODIFIED="1597796419653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mypoject_all$final.coverage" NAME="final Coverage Results" MODIFIED="1597842320678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mypoject_all$email.coverage" NAME="email Coverage Results" MODIFIED="1598080599619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mypoject_all" />
-    <SUITE FILE_PATH="coverage/mypoject_all$myproject_data__1_.coverage" NAME="myproject_data (1) Coverage Results" MODIFIED="1598089735409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mypoject_all$myproject_data__1_.coverage" NAME="myproject_data (1) Coverage Results" MODIFIED="1598171633163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mypoject_all$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1598082623413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week07" />
     <SUITE FILE_PATH="coverage/mypoject_all$email__1_.coverage" NAME="email (1) Coverage Results" MODIFIED="1598083875048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
