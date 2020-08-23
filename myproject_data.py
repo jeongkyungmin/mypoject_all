@@ -60,7 +60,7 @@ print(type(float(fruit['Value'].values[0])))
 
 result = []
 for row in range(fruit['Value'].count()):
-    if float(row) < 0.4 and float(row) > 1.4:
+    if float(fruit['Value'].values[row]) > 0.4 and float(fruit['Value'].values[row]) < 1.4:
         result.append('OK')
 
     else:
