@@ -55,24 +55,21 @@ print(fruit_OLED)
 #
 ## ok/ng 판정하기
 #
-# print(fruit['Value'].count())
-# print(type(float(fruit['Value'].values[0])))
-#
-# fruit['result']=0
-#
-# print(fruit['result'][0])
-#
-#
-# for row in range(fruit['Value'].count()):
-#     if float(fruit['Value'].values[row]) > 0.4 and float(fruit['Value'].values[row]) < 1.4:
-#         fruit['result'][row].append('OK')
-#     else:
-#         fruit['result'][row].append('NG')
+print(fruit['Value'].count())
+print(type(float(fruit['Value'].values[0])))
 
+result = []
+for row in range(fruit['Value'].count()):
+    if float(row) < 0.4 and float(row) > 1.4:
+        result.append('OK')
 
+    else:
+        result.append('NG')
 
+fruit['result'] = result
+print(fruit)
 
-# fruit.to_excel("result.xlsx", index=True, encoding='utf-8')
+fruit.to_excel("result.xlsx", index=True, encoding='utf-8')
 #
 # # #ok/ng 판정하기
 #
