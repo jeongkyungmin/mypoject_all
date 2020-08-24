@@ -12,9 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b368b11b-493a-4487-8617-df6400dbd4f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apple.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/apple.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output_merge.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/output_merge.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_table.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/output_table.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/result.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,9 +186,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.myproject_data (1)" />
+        <item itemvalue="Python.email (1)" />
         <item itemvalue="Python.ex (1)" />
         <item itemvalue="Python.ex" />
-        <item itemvalue="Python.email (1)" />
         <item itemvalue="Python.app (1)" />
       </list>
     </recent_temporary>
@@ -220,6 +220,7 @@
       <workItem from="1598134898529" duration="10583000" />
       <workItem from="1598155753463" duration="15990000" />
       <workItem from="1598175112372" duration="11127000" />
+      <workItem from="1598263890367" duration="5406000" />
     </task>
     <servers />
   </component>
@@ -266,30 +267,30 @@
     </state>
     <state x="746" y="419" key="Github.CreateGistDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597909139592" />
     <state x="746" y="419" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597843336113" />
-    <state width="1865" height="346" key="GridCell.Tab.0.bottom" timestamp="1598190977157">
+    <state width="1865" height="346" key="GridCell.Tab.0.bottom" timestamp="1598269306444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="267" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597809224120" />
     <state width="1865" height="361" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597997457266" />
-    <state width="1865" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598190977157" />
-    <state width="1865" height="346" key="GridCell.Tab.0.center" timestamp="1598190977157">
+    <state width="1865" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598269306444" />
+    <state width="1865" height="346" key="GridCell.Tab.0.center" timestamp="1598269306444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="267" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597809224120" />
     <state width="1865" height="361" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597997457266" />
-    <state width="1865" height="346" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598190977157" />
-    <state width="1865" height="346" key="GridCell.Tab.0.left" timestamp="1598190977157">
+    <state width="1865" height="346" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598269306444" />
+    <state width="1865" height="346" key="GridCell.Tab.0.left" timestamp="1598269306444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="267" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597809224120" />
     <state width="1865" height="361" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597997457266" />
-    <state width="1865" height="346" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598190977157" />
-    <state width="1865" height="346" key="GridCell.Tab.0.right" timestamp="1598190977157">
+    <state width="1865" height="346" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598269306444" />
+    <state width="1865" height="346" key="GridCell.Tab.0.right" timestamp="1598269306444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="267" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597809224120" />
     <state width="1865" height="361" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597997457266" />
-    <state width="1865" height="346" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598190977157" />
+    <state width="1865" height="346" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598269306444" />
     <state width="1865" height="331" key="GridCell.Tab.1.bottom" timestamp="1597829952851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -327,8 +328,8 @@
     <SUITE FILE_PATH="coverage/mypoject_all$excel.coverage" NAME="excel Coverage Results" MODIFIED="1597796419653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mypoject_all$final.coverage" NAME="final Coverage Results" MODIFIED="1597842320678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mypoject_all$email.coverage" NAME="email Coverage Results" MODIFIED="1598080599619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mypoject_all" />
-    <SUITE FILE_PATH="coverage/mypoject_all$myproject_data__1_.coverage" NAME="myproject_data (1) Coverage Results" MODIFIED="1598190977150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mypoject_all$myproject_data__1_.coverage" NAME="myproject_data (1) Coverage Results" MODIFIED="1598269306435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mypoject_all$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1598082623413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week07" />
-    <SUITE FILE_PATH="coverage/mypoject_all$email__1_.coverage" NAME="email (1) Coverage Results" MODIFIED="1598083875048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mypoject_all$email__1_.coverage" NAME="email (1) Coverage Results" MODIFIED="1598265187891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
