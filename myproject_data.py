@@ -86,15 +86,26 @@ fruit.to_excel("result.xlsx", index=True, encoding='utf-8')
 
 # ## graph와 함께 보이는 정보는 아래와 같습니다.
 
-fruit_graph=fruit[['검사 시간','W/O','인치시리즈','Value','result','Stand No','Stand']]
+graph_data=fruit[['검사 시간','W/O','인치시리즈','Value','result','Stand No','Stand']]
 
 # ## 이제 모델별로 그래프를 그립니다.
-print(fruit_graph.groupby('인치시리즈').size())
-fruit_graph_cnt = pd.DataFrame({'count' : fruit_graph.groupby('인치시리즈').size()}).reset_index()
-print(fruit_graph_cnt)
+print(graph_data.groupby('인치시리즈').size())
+graph_data_cnt = pd.DataFrame({'count' : graph_data.groupby('인치시리즈').size()}).reset_index()
+print(graph_data_cnt)
 
-인치시리즈_graph= fruit_graph.groupby('인치시리즈').get_group('32LM55').reset_index()
+인치시리즈_graph_data= graph_data.groupby('인치시리즈').get_group('32LM55').reset_index()
+print(인치시리즈_graph_data)
+
+graph=graph_data[['인치시리즈','Value']]
+인치시리즈_graph= graph.groupby('인치시리즈').get_group('32LM55').reset_index()
 print(인치시리즈_graph)
+
+from matplotlib import pyplot as plt
+import numpy as np
+
+
+
+
 
 
 
