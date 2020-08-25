@@ -1,5 +1,5 @@
 import smtplib
-from email.mime.text import MIMEText
+from emailxx.mime.text import MIMEText
 
 # 메일 내용 작성
 title = '[20200812_오늘의 코딩 공부].'
