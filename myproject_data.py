@@ -114,21 +114,22 @@ matplotlib.rc('font', family=font_name)
 x = 인치시리즈_graph_data['검사 시간']
 y = 인치시리즈_graph_data['Value']
 
-# plt.xlim() # x축 최대값 지정 (시작, 끝)
-# plt.ylim(5, -3) # y축 최대값 지정 (시작, 끝)
+# fig = plt.figure(figsize=(5, 3))
+# ax = fig.add_subplot(1,1,1)
+#
+# ax.set_xlim(-1,10)
+# ax.set_ylim(5,-5)
+
+plt.plot(x,y,'ok', label='32LM63')
+plt.legend()
+
+yposition = [1.4,0.4]
+for yc in yposition:
+    plt.axhline(y=yc, color='r', linestyle='--')
 
 plt.xlabel('날짜')
 plt.ylabel('각도')
 plt.title('인치 모델별 기울기')
-
-plt.figure(figsize=(5, 3))
-plt.plot(x,y,'ob', label='32LM63')
-plt.legend()
-
-yposition = [0.4,1.4]
-for yc in yposition:
-    plt.axhline(y=yc, color='r', linestyle='--')
-
 
 plt.show()
 
