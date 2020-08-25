@@ -105,27 +105,32 @@ print(인치시리즈_graph_data)
 
 
 import matplotlib.pyplot as plt
+from matplotlib import font_manager, rc
+import matplotlib
+font_location = "c:/Windows/fonts/malgun.ttf"
+font_name = font_manager.FontProperties(fname=font_location).get_name()
+matplotlib.rc('font', family=font_name)
 
 x = 인치시리즈_graph_data['검사 시간']
 y = 인치시리즈_graph_data['Value']
 
-plt.xlim()
-plt.ylim(5,-3)
-plt.axhline(y=1.4, color='r', linewidth=1)
+# plt.xlim() # x축 최대값 지정 (시작, 끝)
+# plt.ylim(5, -3) # y축 최대값 지정 (시작, 끝)
 
-plt.xlabel('Data')
-plt.ylabel('Dgree')
-plt.title('Model')
-plt.plot(x,y,'o--g')
+plt.xlabel('날짜')
+plt.ylabel('각도')
+plt.title('인치 모델별 기울기')
+
+plt.figure(figsize=(5, 3))
+plt.plot(x,y,'ob', label='32LM63')
+plt.legend()
+
+yposition = [0.4,1.4]
+for yc in yposition:
+    plt.axhline(y=yc, color='r', linestyle='--')
+
 
 plt.show()
-
-
-
-
-
-
-
 
 
 
